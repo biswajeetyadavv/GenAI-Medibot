@@ -6,16 +6,6 @@ Medibot is a context-aware medical chatbot that leverages large language models 
 - Utilizes FAISS for efficient semantic search on embedded medical documents.
 - Modular design for memory creation, connection, and inference.
 
-## Project Structure
-- data/                         # Data directory for medical documents
-- vectorstore/db_faiss/         # FAISS vector database files  
-- connect_memory_with_llm.py    # Loads memory and connects with LLM for inference  
-- create_memory_for_llm.py      # Embeds documents and creates FAISS vector store  
-- medibot.py                    # Main execution script for chatbot  
-- requirements.txt              # Required Python packages  
-- Pipfile / Pipfile.lock        # Pipenv environment configuration  
-- LICENSE  
-- README.md
 
 ## Project Structure
 
