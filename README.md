@@ -1,6 +1,4 @@
-# GenAI-Medibot
-
-# Medibot: Context-Aware Medical Assistant using LLMs
+# GenAI-Medibot: Context-Aware Medical Assistant using LLMs
 Medibot is a context-aware medical chatbot that leverages large language models (LLMs) with FAISS-based vector memory to provide relevant, data-driven responses. It allows persistent memory and conversational context management, designed for efficiency and adaptability in healthcare-oriented environments.
 
 ## Features
@@ -42,13 +40,13 @@ pipenv shell
 Place your medical documents (PDF or text files) inside the data/ folder
 ```
 
-5. **Create Vector Memory**
+4. **Create Vector Memory**
    Run the following script to embed the documents and generate the FAISS vector store:
 ```bash
 python create_memory_for_llm.py
 ```
 
-2. **Launch the Chatbot**
+5. **Launch the Chatbot**
 Start the chatbot interface that uses the embedded memory and connects to the LLM:
 ```bash
 python connect_memory_with_llm.py
@@ -61,3 +59,13 @@ python connect_memory_with_llm.py
 - OpenAI / compatible LLMs – for natural language understanding
 - LangChain (if used) – for chaining memory and language tools
 - Streamlit or Flask (optional frontend integration)
+
+##Notes
+- Ensure API keys or access tokens (e.g., OpenAI keys) are managed securely and excluded via .gitignore.
+- The project supports easy extension for custom documents, additional tools, and deployment options.
+
+##License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+```bash
+You can now paste this directly into your `README.md` file — it's compact, professional, and well-structured for viewers on GitHub or recruiters checking your profile. Let me know if you want to add **screenshots**, a **demo section**, or **badges** (like Python version, license, or build status).
+```
