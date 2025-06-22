@@ -31,3 +31,25 @@ cd medibot
 ```bash
 pip install -r requirements.txt
 ```
+or
+using pipenv:
+```bash
+pipenv install
+pipenv shell
+```
+3. **Prepare the Data**
+```bash
+Place your medical documents (PDF or text files) inside the data/ folder
+```
+
+4. **Create Vector Memory**
+   Run the following script to embed the documents and generate the FAISS vector store:
+```bash
+python create_memory_for_llm.py
+```
+
+2. **Launch the Chatbot**
+Start the chatbot interface that uses the embedded memory and connects to the LLM:
+```bash
+python connect_memory_with_llm.py
+```
