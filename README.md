@@ -9,7 +9,7 @@ Medibot is a context-aware medical chatbot that leverages large language models 
 - Modular design for memory creation, connection, and inference.
 
 ## Project Structure
-- data/                          # Data directory for medical documents
+- data/                         # Data directory for medical documents
 - vectorstore/db_faiss/         # FAISS vector database files  
 - connect_memory_with_llm.py    # Loads memory and connects with LLM for inference  
 - create_memory_for_llm.py      # Embeds documents and creates FAISS vector store  
@@ -42,7 +42,7 @@ pipenv shell
 Place your medical documents (PDF or text files) inside the data/ folder
 ```
 
-4. **Create Vector Memory**
+5. **Create Vector Memory**
    Run the following script to embed the documents and generate the FAISS vector store:
 ```bash
 python create_memory_for_llm.py
@@ -53,3 +53,11 @@ Start the chatbot interface that uses the embedded memory and connects to the LL
 ```bash
 python connect_memory_with_llm.py
 ```
+
+
+## Tech Stack
+- Python 3.8+
+- FAISS – for efficient vector similarity search
+- OpenAI / compatible LLMs – for natural language understanding
+- LangChain (if used) – for chaining memory and language tools
+- Streamlit or Flask (optional frontend integration)
