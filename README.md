@@ -25,3 +25,9 @@ Medibot is a context-aware medical chatbot that leverages large language models 
 ```bash
 git clone https://github.com/biswajeetyadavv/medibot.git
 cd medibot
+```
+
+2. **Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
