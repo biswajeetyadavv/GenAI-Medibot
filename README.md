@@ -1,4 +1,4 @@
-# GenAI-Medibot: Context-Aware Medical Assistant using LLMs
+# GenAI-Medibot: Healthcare Query System using Vector Search and LLMs 
 Medibot is a context-aware medical chatbot that leverages large language models (LLMs) with FAISS-based vector memory to provide relevant, data-driven responses. It allows persistent memory and conversational context management, designed for efficiency and adaptability in healthcare-oriented environments.
 
 ## Features
